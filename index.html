@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Switzerland Salary Statistics</h1>
+      <p id="description">We'd love to hear your feedback! Please fill out the form below.</p>
+      <form id="survey-form">
+        <!--Name Input -->
+        <label id="name-label" for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        <!--Email Input -->
+        <label id="email-label" for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <!--Number Input -->
+        <label id="number-label" for="number">Age:</label>
+        <input id="number" type="number" placeholder="Enter your age" min="1" max="120">
+        <!--Dropdown Input -->
+<label for="dropdown">What is your current role?</label>
+<select id="dropdown">
+  <option value="student">Student</option>
+  <option value="professional">Professional</option>
+  <option value="other">Other</option>
+</select>
+        <!--Radio Buttons -->
+<p>How did you hear about us?</p>
+ <label><input type="radio" name="source" value="friend">Friend</label>
+<label><input type="radio" name="source" value="online">Online</label>
+  <label><input type="radio" name="source" value="other">Other</label>
+<!--Checkboxes -->
+<p>Which topics interest you? (Select all that apply)</p>
+ <label><input type="checkbox" name="source" value="friend">Technology</label>
+<label><input type="checkbox" name="source" value="friend">Design</label>
+  <label><input type="checkbox" name="source" value="friend">Health</label>
+<!--Textarea -->
+<label for="comments">Any additional comments?</label>
+            <textarea id="comments" placeholder="Enter your comments here"></textarea>
+<!--Submit Button -->
+            <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  <header>
+  </header>
+  </body>
+</html>
